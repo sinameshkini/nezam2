@@ -1,0 +1,15 @@
+#header{
+    background-color: lightblue;
+}
+
+body{
+    direction: rtl;
+}
+@font-face {
+    font-family: bmitra;
+    src: url('../fonts/BMitra.ttf');
+}
+
+h1,h2,h3,h4,h5,div,label,p,span,textarea,a,button {
+    font-family: bmitra !important;
+}
