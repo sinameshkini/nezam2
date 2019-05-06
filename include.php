@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once ('dbconnect.php');
-$salt="qdss243$%^$^%=-!dsm";
+$salt="1";
 
 function convertoeng ($input){
     $unicode = array('۰', '۱', '۲', '۳', '٤', '٥', '٦', '۷', '۸', '۹');
